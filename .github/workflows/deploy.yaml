@@ -16,7 +16,6 @@ jobs:
         run: |
           echo "Hello Pablo!"
       - name: Dime la fecha
-      run: date
+        run: date
       - name: Dime la hora
-      run: time
-      
+        run: time
