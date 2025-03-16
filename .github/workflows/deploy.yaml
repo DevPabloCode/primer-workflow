@@ -15,4 +15,8 @@ jobs:
       - name: Echoe the message
         run: |
           echo "Hello Pablo!"
-          
+      - name: Dime la fecha
+      run: date
+      - name: Dime la hora
+      run: time
+      
